@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mona Sans";
+  color: #f0f6fc;
+}
+
+body {
+  background-color: #0d1117;
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#githublogo {
+  width: 48px;
+  height: 48px;
+  margin-top: 45px;
+}
+
+#principaltext {
+  font-weight: normal;
+  font-size: 24px;
+  /* margin-top: -2px; */
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #151b24;
+  border: 1px solid #313841;
+  border-radius: 5px;
+  width: 288px;
+  height: 220px;
+  padding: 15px;
+  /* gap: 5px; */
+  font-size: 14px;
+}
+
+#form input {
+  background-color: #0d1117;
+  border: 1px solid #3d444d;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  padding: 5px 12px;
+  margin: 4px 0px 16px;
+}
+
+#form input:focus {
+  transition: 15ms;
+  outline: 2px solid #326fea;
+  border: 1px solid transparent;
+}
+
+.link {
+  color: #3c7fd5;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.underline:hover {
+  text-decoration: underline;
+  color: #3c7fd5;
+}
+
+#sideform {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#signbutton {
+  background-color: #29903b;
+  color: #d8eadb;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 95%;
+  padding: 5px 16px;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#register {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  border: 1px solid #3d444d;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  gap: 10px;
+}
+
+#side {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+
+#register a,
+p {
+  font-size: 14px;
+}
+
+#secondary {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 75px;
+}
+
+#secondary p {
+  font-size: 12px;
+}
+
+.nounderline {
+  text-decoration: none;
+  color: #8a9098;
+  font-weight: 500;
+}
